@@ -1,0 +1,61 @@
+/*
+CSS (Cascading Style Sheet) is a style sheet language used for decorating/styling/disgning selectively HTML elements.
+
+Stylesheet files have .css file extension containing rulesets.
+
+Every ruleset consists of the following component:
+
+1. Selector
+- Element Selector (e.g. p, a, h1, h2, img) refers to the html elements.
+- ID Selector (e.g. #id-name, #another-id-name) refers to the id name of an element, where id name must be unique.
+- Class Selector (e.g. .class-name, .another-class-name) refers to elements with a given class name as one of their attribute values in class attribute.
+- Attribute Selector (e.g. img[src], a[href]) refers to elements with an attribute specified within the open and close square brackets.
+- Pseudo-class Selector (e.g. a:hover, img:hover) refers to elements having a current state provided after the colon.
+2. Declaration
+2.1. Property name (e.g. color, border, shadow, background-color)
+2.2. Colon (:)
+2.3. Property value (e.g. red, 1px solid blue, pink)
+2.4. Semi-colon (;)
+*/
+
+html {
+    font-family: "Cormorant Infant", serif;
+    background-color: #4281f5;
+}
+
+body {
+    width: 600px;
+    margin: 0px auto;
+    background-color: #ebeb34;
+    padding: 0px 32px 32px 32px;
+    border: 16px solid #161717;
+}
+
+h1 {
+    margin: 0px;
+    padding: 32px 0px;
+    font-size: 64px;
+    color: #4281f5;
+    text-shadow: 0px 3px 1px #161717;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+ul li, p {
+    font-size: 24px;
+}
+
+p {
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-align: justify;
+}
